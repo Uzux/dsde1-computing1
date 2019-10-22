@@ -25,13 +25,9 @@ def main():
 def period(length, accel):
     if accel != 0:
         t = 2*m.pi*m.sqrt(length/accel)
-        return t    
+        return t
     else:
         print("Acceleration cannot be 0!")
         raise ValueError
-        
-    
-    
-
 if __name__ == '__main__':
     main()
